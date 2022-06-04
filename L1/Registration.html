@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration</title>
+</head>
+<body>
+
+    <form action="Response.php" method="post" novalidate>
+   
+    <fieldset >
+        <legend >General</legend><br>
+    <label for="fname">First name </label>
+    <input type="text" name="fname" id="fname"><br><br>
+    <label for="lname">Last name</label>
+    <input type="text" name="lname" id="lname"><br><br>
+    <label >Gender</label>
+    <input type="radio" name="Gender" id="gender" value="MALE">
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" id="female" value="FEMALE">
+    <label for="female">Female</label>
+</fieldset>
+    <br><br>
+    <br><br>
+
+    <fieldset>
+    <legend >Contact</legend><br><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="mobile">Mobile</label>
+    <input type="number" name="mobile" id="mobile"><br><br>
+    </fieldset>
+    <br><br>
+   <fieldset>
+   <legend>Address</legend>
+    <label for="addr">Street/House/Road</label>
+    <input type="text" name="address" id="addr"><br><br>
+    <label for="country">Country</label>
+    <select name="country" id="country">
+    <option value="Afganistan">Afganistan</option>
+    <option value="Australia">Australia</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+</select>
+</fieldset>
+
+<br>
+<input type="submit" name="submit" value="Registar" >
+
+
+    </form>
+
+
+</body>
+</html>
